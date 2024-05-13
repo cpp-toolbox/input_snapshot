@@ -1,8 +1,10 @@
 #ifndef INPUT_SNAPSHOT_HPP
 #define INPUT_SNAPSHOT_HPP
+#include <cstdint>
 
 class InputSnapshot {
   public:
+    uint64_t client_id;
     bool left_pressed = false;
     bool right_pressed = false;
     bool forward_pressed = false;
