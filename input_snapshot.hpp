@@ -1,8 +1,6 @@
 #ifndef INPUT_SNAPSHOT_HPP
 #define INPUT_SNAPSHOT_HPP
 
-#include <glm/glm.hpp>
-
 class InputSnapshot {
   public:
     uint64_t client_id;
